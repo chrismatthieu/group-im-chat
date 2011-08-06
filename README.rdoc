@@ -1,0 +1,13 @@
+== Phono / Tropo Group IM Chat Example
+
+This example code shows you how to build a group IM chat in a website using the Phono jQuery SDK (http://phono.com) and Tropo's (http://tropo.com) IM messaging API.
+
+== Installation
+
+1. Create a Phono account and a Tropo account.
+2. Create a Tropo Scripting API application and past code from tropo.rb
+3. Create a Jabber ID on your new Tropo application and update the tropo.im address in im.js
+4. Run the IM chat app by passing the chatroom name and username parameters in the URL:
+
+http://christoffe.local/phonoim/chat.html?chatroom=nodester&user=chris
+

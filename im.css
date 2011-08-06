@@ -1,0 +1,49 @@
+#im_box {
+    width: 300px;
+    border: 1px solid black;
+    padding: 0px;
+    background-color: #ddd;
+}
+
+#dialog {
+    height: 300;
+    overflow: auto;
+    font-size: 10pt;
+    font-family: Arial;
+    padding: 5px;
+}
+
+#message {
+    width: 300px;
+    border: 1px solid;
+    margin: 1px;
+}
+
+h3 {
+    border-bottom: 1px solid;
+    margin-top: 0px;
+    background-color: #eee;
+}
+
+.msg_client {
+    margin: 5px;
+    border: 1px solid;
+    padding: 3px;
+    background-color: white;
+}
+
+.msg_client b {
+    color: blue;
+}
+
+.msg_server {
+    margin: 5px;
+    margin-left: 15px;
+    border: 1px solid;
+    padding: 3px;
+    background-color: white;
+}
+
+.msg_server b {
+    color: red;
+}

@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Phono IM Chat</title>
+    <link type="text/css" rel="stylesheet" href="im.css" />
+    <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script src="http://s.phono.com/releases/0.2/jquery.phono.js"></script>
+    <script src="im.js"></script>
+	<script type="text/javascript">
+	      Phono.registerPlugin("audio", {
+	         create: function(phono, config, callback) {callback({}); return {};}
+	      });
+	      Phono.registerPlugin("phone", {
+	         create: function(phono, config, callback) {callback({}); return {};}
+	      });
+	 </script>
+
+  </head>
+  <body>
+    <div id="im_box">
+      <h3 align=center>IM Chat</h3>
+      <div id="dialog" style="">
+      </div>
+      <input type="text" id="message" onkeydown="processKey(event)" disabled="true">
+    </div>
+  </body>
+</html>
