@@ -11,3 +11,5 @@ This example code shows you how to build a group IM chat in a website using the 
 
 http://christoffe.local/phonoim/chat.html?chatroom=nodester&user=chris
 
+Note: I wrapped this static HTML file with Ruby/Sinatra so that I could host it on heroku for free demos
+
